@@ -77,7 +77,7 @@ class LazySkillLoader:
             self._last_scan_time = current_time
             return []
         
-        for item in os.listdir(SKILLS_DIR):
+        for item in sorted(os.listdir(SKILLS_DIR)):
             folder_path = os.path.join(SKILLS_DIR, item)
             if not os.path.isdir(folder_path):
                 continue
