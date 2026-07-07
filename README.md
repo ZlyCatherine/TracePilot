@@ -21,7 +21,6 @@ TracePilot/
 ├── entry/                 # CLI、主程序和监控入口
 ├── tests/                 # 核心测试
 ├── examples/              # 示例脚本
-├── docs/                  # 补充设计文档
 ├── setup.py
 └── requirements.txt
 ```
